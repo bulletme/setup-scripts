@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-TMUX_VERSION=2.7
+TMUX_VERSION=3.0
 now=$(date +%y%m%d-%H%M%S-Week%U-%a-%T)
 install_dir=/tmp/tmux-$now
+
+# https://github.com/tmux/tmux/blob/master/CHANGES
 
 # Immediately exit on failure
 set -e
